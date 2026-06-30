@@ -3,90 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho de Programação: Torre de Babel</title>
-    <style>
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f4; }
-        header { text-align: center; border-bottom: 2px solid #333; margin-bottom: 30px; }
-        h2 { border-left: 5px solid #000; padding-left: 10px; margin-top: 30px; }
-        section { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        p { margin-bottom: 15px; }
-        ul { list-style: square; padding-left: 20px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-        th { background-color: #333; color: white; }
-        footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #777; }
-
-        /* FOTO CENTRALIZADA E COM EFEITO RENDERIZADO */
-        .foto-babel {
-            display: block;
-            margin: 30px auto; /* Centraliza e dá espaço em cima/baixo */
-            max-width: 90%;    /* Ajusta ao tamanho da tela */
-            height: auto;
-            border-radius: 15px; /* Bordas arredondadas */
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Sombra para profundidade */
-            border: 3px solid #fff; /* Moldura branca fina */
-        }
-    </style>
+    <title>Vitamina da Laranja</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>PROJETO: TORRE DE BABEL</h1>
+    <h1>🍊 Vitamina da Laranja</h1>
+    <p>Entenda como a vitamina C fortalece seu corpo</p>
 </header>
 
-<section>
-    <h2>Inspirações</h2>
-    <p>Nossa principal inspiração veio do mito bíblico e histórico da Torre de Babel, representando a ambição humana e a diversidade de línguas. Visualmente, buscamos referências em pinturas clássicas e arquiteturas em espiral.</p>
-</section>
+<nav>
+    <a href="#oque">O que é</a>
+    <a href="#necessidades">Necessidades</a>
+    <a href="#beneficios">Benefícios</a>
+</nav>
 
-<!-- IMAGEM TRABALHADA -->
-<img src="mu_meireles_babel_001_x73CYO4.width-2560.jpg" alt="Instalação Babel de Cildo Meireles" width="500" class="foto-babel">
+<div class="container">
 
-<section>
-    <h2>Como Fizemos</h2>
-    <p>O processo consistiu em empilhar os materiais de forma que a base fosse sólida, estreitando conforme a altura aumentava. Trabalhamos na colagem estrutural e no equilíbrio para garantir que a torre representasse fielmente a ideia de ascensão.</p>
-</section>
+    <!-- O QUE É -->
+    <div class="card" id="oque">
+        <h2>O que é?</h2>
+        <p>A laranja é uma das frutas mais ricas em <strong>vitamina C</strong>, além de conter fibras, flavonoides e minerais. 
+        Essa vitamina é essencial para o sistema imunológico e para diversas funções do organismo.</p>
+        <div class="moldura"><img src="laranja.jpg" alt="Imagem de laranja"></div>
+    </div>
 
-<section>
-    <h2>Materiais Utilizados</h2>
-    <ul>
-        <li>Livros antigos sem utilidade (reutilizados para a estrutura).</li>
-        <li>Cola e materiais de fixação.</li>
-        <li>Papel e tinta para acabamento.</li>
-    </ul>
-</section>
+    <!-- NECESSIDADES -->
+    <div class="card" id="necessidades">
+        <h2>Necessidades do Corpo</h2>
+        <p>O corpo humano não produz vitamina C, por isso ela deve ser obtida pela alimentação.</p>
+        <ul>
+            <li>Adultos necessitam em média de 75 a 90 mg por dia.</li>
+            <li>Uma laranja média fornece até 80% dessa necessidade.</li>
+            <li>Ajuda na produção de colágeno, absorção de ferro e defesa contra doenças.</li>
+        </ul>
+        <div class="moldura"><img src="vitaminaC.jpg" alt="Vitamina C"></div>
+    </div>
 
-<section>
-    <h2>Horário de Nascimento dos Estudantes</h2>
-    <p>Como parte da personalização do grupo, listamos abaixo os horários em que cada integrante nasceu:</p>
-    <table>
-        <tr>
-            <th>Estudante</th>
-            <th>Horário de Nascimento</th>
-        </tr>
-        <tr><td>Adrian</td><td>08:27</td></tr>
-        <tr><td>Ana Julia</td><td>17:34</td></tr>
-        <tr><td>Bruno</td><td>03:30</td></tr>
-        <tr><td>Débora</td><td>10:20</td></tr>
-        <tr><td>Denis</td><td>00:50</td></tr>
-        <tr><td>Emanuelly</td><td>00:00</td></tr>
-        <tr><td>Erick</td><td>10:51</td></tr>
-        <tr><td>Iago</td><td>23:00</td></tr>
-        <tr><td>Leonardo Pereira</td><td>23:30</td></tr>
-        <tr><td>Leonardo Gabriel</td><td>20:30</td></tr>
-        <tr><td>Luan</td><td>20:51</td></tr>
-        <tr><td>Luana</td><td>22:30</td></tr>
-        <tr><td>Luiza</td><td>08:25</td></tr>
-        <tr><td>Lukas</td><td>22:35</td></tr>
-        <tr><td>Miguel</td><td>22:00</td></tr>
-        <tr><td>Tiago</td><td>23:00</td></tr>
-        <tr><td>Yohann</td><td>19:50</td></tr>
-    </table>
-</section>
-
-<footer>
-    <p>Site criado por Luan, para atividade de Programação</p>
-</footer>
-
-</body>
-</html>
+    <!-- BENEFÍCIOS -->
+    <div class="card" id="beneficios">
+        <h2>Benefícios</h2>
+        <ul>
+            <li>Fortalece o sistema imunológico.</li>
+            <li>Protege contra gripes e resfriados.</li>
+            <li>Melhora a saúde da pele e dos ossos.</li>
+            <li>Auxilia na cicatrização de feridas.</li>
+            <li>Reduz riscos de doenças cardiovasculares.</li>
+            <li>Favorece a memória e concentração.</li>
+        </ul>
+        
